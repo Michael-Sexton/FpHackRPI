@@ -1,0 +1,70 @@
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+
+    <title>Where To?</title>
+
+</head>
+
+<body>
+    <h1>
+        <center>Where To?</center>
+    </h1>
+
+    <!––action="action.php" method="post"-->
+
+    <center>
+            <p>Please Click Add to Add a Location</p>
+            
+        <a href="#" id="filldetails" onclick="addFields()">Add</a>
+
+        <div id="div1"></div>
+        
+        <br>
+        
+        <button type="button">Enter</button>
+        
+    </center>
+
+
+    <script>
+        function addFields() {
+            
+            var number = 1;
+
+            for (i = 0; i < number; i++) {
+
+                var myDiv = document.getElementById("div" + (i + 1));
+
+                var array = ["Select Location", "New York, NY", "Troy, NY", "Boston, MA", "Seattle, WA", "Austin, TX", "Atlanta, GA"];
+
+                var para = document.createElement("p");
+                var node = document.createTextNode("Location: ");
+                para.appendChild(node);
+                var element = document.getElementById("div1");
+                element.appendChild(para);
+
+                //Create and append select list
+                var selectList = document.createElement("select");
+                selectList.id = "list" + (i+1);
+                myDiv.appendChild(selectList);
+
+                //Create and append the options
+                for (var i = 0; i < array.length; i++) {
+                    var option = document.createElement("option");
+                    option.value = array[i];
+                    option.text = array[i];
+                    selectList.appendChild(option);
+                }
+
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>
