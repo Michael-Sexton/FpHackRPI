@@ -27,6 +27,8 @@
         margin-left: auto;
         border: 5px solid black;
         background-color: white;
+        font-weight: bold;
+        font-size: 20px;
     }
 
 </style>
