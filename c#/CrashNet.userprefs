@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{84AAFCD9-41E9-4C3A-A6E3-76BC1C7B3B29}|">
+  <MonoDevelop.Ide.ItemProperties.CrashNet PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CrashNet/Default.aspx.cs">
+    <Files>
+      <File FileName="CrashNet/Default.aspx" Line="10" Column="3" />
+      <File FileName="CrashNet/Default.aspx.cs" Line="471" Column="1" />
+      <File FileName="CrashNet/Default.aspx.designer.cs" Line="23" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

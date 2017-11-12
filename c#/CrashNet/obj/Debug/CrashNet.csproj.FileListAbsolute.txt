@@ -1,0 +1,5 @@
+/Users/m1k3y/Projects/CrashNet/CrashNet/bin/CrashNet.dll
+/Users/m1k3y/Projects/CrashNet/CrashNet/bin/CrashNet.pdb
+/Users/m1k3y/Projects/CrashNet/CrashNet/obj/Debug/CrashNet.csproj.CoreCompileInputs.cache
+/Users/m1k3y/Projects/CrashNet/CrashNet/obj/Debug/CrashNet.dll
+/Users/m1k3y/Projects/CrashNet/CrashNet/obj/Debug/CrashNet.pdb
