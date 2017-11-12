@@ -2,16 +2,19 @@
 
 <head>
 
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+
     <title>CrashNY</title>
 
     <style>
+
      body{
         font-weight: bold;
         font-size: 20px;
+        background-image: url("img/wallpaper.png");
     }
-.form {
+form {
   height:auto;
   font-weight: bold;
   line-height: 2.5;
@@ -25,7 +28,7 @@
   	margin-right:auto; 
   	margin-left:auto; 
   	border:5px solid black;
-    
+    background-color: white;
     }
     
   </style>
@@ -34,13 +37,12 @@
 
 <body>
     <h1>
-        <center>Crash NY</center>
+        <center style="color: white; font-weight: bold; text-shadow: 4px px black;">Crash NY</center>
     </h1>
-    
+
     <form name="form" action="result.php" method="post";>
         <p>Select a Borough:</p>
-        <select class="form-control col-xs-4" name="borough">
-          <option selected value="0" disabled="disabled">Select Borough</option>
+        <select class="form-control" name="borough"><option selected value="0" disabled="disabled">Select Borough</option>
           <option value="1">Manhattan</option>
           <option value="2">Brooklyn</option>
           <option value="3">Queens</option>
@@ -50,7 +52,7 @@
 
         <p>Select a Time of Day:</p>
         <select class="form-control col-xs-4" name="time">
-          <option selected disabled="disabled">Select Time</option>
+          <option selected value="25" disabled="disabled">Select Time</option>
           <option value="0">12am</option>
           <option value="1">1am</option>
           <option value="2">2am</option>
@@ -79,8 +81,9 @@
       </select>
       <br>
 
+        <input class="btn btn-primary" type="submit" value="Enter">
     </form>
- <input class="btn btn-primary" type="submit" value="Enter">
+
 
 </body>
 
